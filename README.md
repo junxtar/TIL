@@ -1,8 +1,12 @@
 # Today I Learned
 
-[![Hits](https://hits.seeyoufarm.com/api/count/incr/badge.svg?url=https://github.com/junxtar/TIL/hit-counter)](https://hits.seeyoufarm.com/)
-
 - 기본기를 다지기 위해서 개발관련 내용 및 경험을 기록한다.
+
+<div align="center"> 
+[![Hits](https://hits.seeyoufarm.com/api/count/incr/badge.svg?url=https://github.com/junxtar/TIL/hit-counter)](https://hits.seeyoufarm.com/)
+<br>
+<!-- 자바  --><img src="https://img.shields.io/badge/JAVA-007396?style=flat-square&logo=JAVA&logoColor=white"/>
+</div>
 
 ## 작성 규칙
 
@@ -17,4 +21,5 @@
 
 ### Java
 
-- [정의](https://github.com/junxtar/TIL/blob/main/Java/definition.md)
+- [자바에 대해 알아보자!](https://github.com/junxtar/TIL/blob/main/Java/definition.md)
+- [자바가 컴파일되는 과정을 알아보자!](https://github.com/junxtar/TIL/blob/main/Java/compiler.md)
