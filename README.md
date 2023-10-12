@@ -2,8 +2,10 @@
 
 - 기본기를 다지기 위해서 개발관련 내용 및 경험을 기록한다.
 
-<div align="center"> 
+<div align="center">
+
 [![Hits](https://hits.seeyoufarm.com/api/count/incr/badge.svg?url=https://github.com/junxtar/TIL/hit-counter)](https://hits.seeyoufarm.com/)
+
 <br>
 <!-- 자바  --><img src="https://img.shields.io/badge/JAVA-007396?style=flat-square&logo=JAVA&logoColor=white"/>
 </div>
