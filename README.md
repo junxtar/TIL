@@ -16,4 +16,4 @@
 
 ### Java
 
-- [자바의 정의](https://github.com/junxtar/TIL/blob/main/Java/definition.md)
+- [정의](https://github.com/junxtar/TIL/blob/main/Java/definition.md)
