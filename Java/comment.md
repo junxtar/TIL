@@ -118,7 +118,101 @@ return buildList(text.substring(match.end()));
 
 - 독자가 대수롭지 않게 여길 만하지만 중요성을 강조하기 위해 사용한다.
 
-<!-- # **나쁜 주석** -->
+# **나쁜 주석**
+
+### 필요성이 떨어지는 주석
+
+```
+public class Person {
+  // 이름, 나이
+  private String name;
+  private int age;
+
+  // 기본 생성자
+  private Person() {}
+
+  // 이름을 반환합니다.
+  String getName() {}
+
+}
+```
+
+- 모든 함수나 변수에 주석을 달아야 한다는 규칙은 필요성이 없는 주석일 뿐이다.
+
+### 오해할 여지가 있는 주석
+
+```
+// this.visited가 true이면 반복문 수행
+
+public void IteratorArray(Array<Integer> list) {
+  while(!this.visited) {..}
+}
+```
+
+- 이 코드에서 주석의 내용은 `this.visited`가 `true`이면 반목문을 수행한다고 하였으나, 코드 내에서는 `flase`일때 반복문 수행
+- 주석의 내용이 독자에게 오해를 사게끔 모호해서는 안된다.
+
+### 이력을 기록하는 주석
+
+```
+/**
+ * 변경 이력 (2023-08-13 부터 ~ )
+ * --------------------------------
+ * 2023-08-13 : User Getter 메서드 추가
+ * 2023-08-15 : 회원가입 메서드 추가
+ * 2023-08-17 : 회원가입 메서드 리팩토링
+ */
+```
+
+- 소스 코드 관리 시스템을 보면 우리는 누가, 언제, 어떤 코드를 수정 및 추가를 하였는지 확인을 할 수 있기에 좋지 않은 주석이다.
+
+### 함수나 변수로 표현할 수 있는 주석
+
+```
+// 전역 목록 <mainSystem>에 속하는 모듈이 우리가 속한 하위 시스템에 의존하는가?
+if(mainSystem.getDependSubsystems().contains(subSysMod.getSubSystem()))
+
+vs
+
+ArrayList<dependSubSystem> moduleDependees = mainSystem.getDependSubsystem();
+String ourSubSystem = subSysMod.getSubSystem();
+if(moduileDependes.contains(ourSubSystem))
+
+```
+
+- 다음과 같은 코드는 변수로 뺼 수 있기에 이 코드는 주석을 달지 않아도 된다.
+
+### 닫는 괄호에 다는 주석
+
+```
+while (true) {
+  for (int i = 0; i < 10; i += 1) {
+    System.out.println("i: "+i);
+  } // for
+
+  if (true) {
+    break;
+  } // if
+} // while
+```
+
+- 우리가 선호하는 작고 캡슐화된 함수에는 닫는 주석은 좋지 않은 주석이다.
+
+### 주석으로 처리한 코드
+
+```
+public class Person {
+  private String name;
+  //private String phoneNumber;
+  private int age;
+}
+```
+
+- 주석으로 처리한 코드는 다른 사람들이 지우기를 주저합니다.
+
+> 사전 컨펌을 받아 휴대폰 정보는 데이터에서 삭제하기로 결정이 내려져 주석으로 처리하였다고 가정을 해보자 !
+> 이 주석은 현재 필요없는 주석이 되고, 이러한 주석이 쌓이면 난잡한 코드가 될 수가 있다.
 
 [참고자료](https://velog.io/@hangem422/clean-code-comment)
+<br>
 출처: CleanCode - 로버트 C.마틴
