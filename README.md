@@ -18,6 +18,7 @@
 - TIL README 파일에는 파일로 이동할 수 링크로 설정
 - reference를 명시하고, 원작자가 참고를 허용하는 자료만 사용
 - Commit Message 규칙: [폴더명] 파일명 -버전으로 통일 ex) [Java] definition -v1
+- 추후 작성 예정인 것은 주석문으로 작성하기
 
 ## 분류
 
@@ -25,3 +26,7 @@
 
 - [자바에 대해 알아보자!](https://github.com/junxtar/TIL/blob/main/Java/definition.md)
 - [자바가 컴파일되는 과정을 알아보자!](https://github.com/junxtar/TIL/blob/main/Java/compiler.md)
+- [좋은 주석을 다는법을 알아보자!](https://github.com/junxtar/TIL/blob/main/Java/comment.md)
+  <!-- - [원시타입, 참조타입, 래퍼클래스의 차이를 알아보자!](https://github.com/junxtar/TIL/blob/main/Java/variableType.md) -->
+    <!-- Todo: main 메서드의 매개변수로 문자열 배열이 들어가는 이유를 알아보자! -->
+    <!-- Todo: Scanner와 BufferedReader의 차이를 알아보자! -->
