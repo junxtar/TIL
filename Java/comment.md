@@ -17,7 +17,7 @@
 
 ### 법적인 주석
 
-```java
+```javax
 // Copyright (C) 2003,2004,2005 by Object Mentor, Inc. All rights reserved.
 // GNU General Public License 버전 2 이상을 따르는 조선으로 베포한다.
 ```
