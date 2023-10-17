@@ -27,6 +27,6 @@
 - [자바에 대해 알아보자!](https://github.com/junxtar/TIL/blob/main/Java/definition.md)
 - [자바가 컴파일되는 과정을 알아보자!](https://github.com/junxtar/TIL/blob/main/Java/compiler.md)
 - [좋은 주석을 다는법을 알아보자!](https://github.com/junxtar/TIL/blob/main/Java/comment.md)
+- [Scanner와 BufferedReader의 차이를 알아보자!](https://github.com/junxtar/TIL/blob/main/Java/input.md)
   <!-- - [원시타입, 참조타입, 래퍼클래스의 차이를 알아보자!](https://github.com/junxtar/TIL/blob/main/Java/variableType.md) -->
     <!-- Todo: main 메서드의 매개변수로 문자열 배열이 들어가는 이유를 알아보자! -->
-    <!-- Todo: Scanner와 BufferedReader의 차이를 알아보자! -->
