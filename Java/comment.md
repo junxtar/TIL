@@ -17,7 +17,7 @@
 
 ### 법적인 주석
 
-```
+```javax
 // Copyright (C) 2003,2004,2005 by Object Mentor, Inc. All rights reserved.
 // GNU General Public License 버전 2 이상을 따르는 조선으로 베포한다.
 ```
@@ -26,7 +26,7 @@
 
 ### 정보를 제공하는 주석
 
-```
+```java
 String str = "a1b2c3d4";
 str = str.replaceAll("[0-9]", ""); //문자열에 포함한 숫자를 제거하는 정규식
 ```
@@ -35,7 +35,7 @@ str = str.replaceAll("[0-9]", ""); //문자열에 포함한 숫자를 제거하�
 
 ### 의도를 설명하는 주석
 
-```
+```java
 static class Person implements Comparable<Person> {
 		String name;
 		int age;
@@ -60,7 +60,7 @@ static class Person implements Comparable<Person> {
 
 ### 의미를 명료하게 밝히는 주석
 
-```
+```java
 public void testCompareTo() throws Exception {
     WikipagePath a = PathParser.parse("PageA");
     WikiPagePath ab = PathParser.parse("PageA. PageB");
@@ -85,7 +85,7 @@ public void testCompareTo() throws Exception {
 
 ### 결과를 경고하는 주석
 
-```
+```java
 //여유 시간이 충분하지 않다면 실행하지 마십시오.
 public void testCodeRellyBigFile(){
 	...
@@ -96,7 +96,7 @@ public void testCodeRellyBigFile(){
 
 ### TODO 주석
 
-```
+```java
 //TODO 현재 기본 전략만 반환하고 있다.
 //기획팀과 비즈니스로직 성립시 신규 전략 추가가 필요하다.
 public Strategy makeStrategy() throws Exception { return new DefaultStrategy(); }
@@ -108,7 +108,7 @@ public Strategy makeStrategy() throws Exception { return new DefaultStrategy(); 
 
 ### 중요성을 강조하는 주석
 
-```
+```java
 String listltemContent = match.group(3).trim();
 // 여기서 trim온 정말 중요하다. trim 합수는 문자열에서 시작 공백을 제거한다.
 // 문자열에 시작 공백이 있으면 다른 문지열로 인식되기 때문이다.
@@ -122,7 +122,7 @@ return buildList(text.substring(match.end()));
 
 ### 필요성이 떨어지는 주석
 
-```
+```java
 public class Person {
   // 이름, 나이
   private String name;
@@ -141,7 +141,7 @@ public class Person {
 
 ### 오해할 여지가 있는 주석
 
-```
+```java
 // this.visited가 true이면 반복문 수행
 
 public void IteratorArray(Array<Integer> list) {
@@ -154,7 +154,7 @@ public void IteratorArray(Array<Integer> list) {
 
 ### 이력을 기록하는 주석
 
-```
+```java
 /**
  * 변경 이력 (2023-08-13 부터 ~ )
  * --------------------------------
@@ -168,7 +168,7 @@ public void IteratorArray(Array<Integer> list) {
 
 ### 함수나 변수로 표현할 수 있는 주석
 
-```
+```java
 // 전역 목록 <mainSystem>에 속하는 모듈이 우리가 속한 하위 시스템에 의존하는가?
 if(mainSystem.getDependSubsystems().contains(subSysMod.getSubSystem()))
 
@@ -184,7 +184,7 @@ if(moduileDependes.contains(ourSubSystem))
 
 ### 닫는 괄호에 다는 주석
 
-```
+```java
 while (true) {
   for (int i = 0; i < 10; i += 1) {
     System.out.println("i: "+i);
@@ -200,7 +200,7 @@ while (true) {
 
 ### 주석으로 처리한 코드
 
-```
+```java
 public class Person {
   private String name;
   //private String phoneNumber;
