@@ -10,18 +10,18 @@
 
 ### 접근 제어자 종류
 
-1. private
+`1. private`
 
-![private](./img/private.png)
+![private](../img/private.png)
 
-2. default
+`2. default`
 
-![default](./img/default.png)
+![default](../img/default.png)
 
-3. protected
+`3. protected`
 
-![protected](./img/protected.png)
+![protected](../img/protected.png)
 
-4. public
+`4. public`
 
-![public](./img/public.png)
+![public](../img/public.png)
