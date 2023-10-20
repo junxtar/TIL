@@ -35,3 +35,4 @@
 ### 프로젝트 진행사항간 발생한 문제점
 
 - [public 접근 제한자를 가졌는데 import를 못했던 이유](https://github.com/junxtar/TIL/blob/main/Problem/modifier.md)
+- [gitingnore 파일이 적용되지 않았던 이유](https://github.com/junxtar/TIL/blob/main/Problem/gitignore.md)
