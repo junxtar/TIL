@@ -61,4 +61,36 @@ import java.io.BufferedReader; // io 패키지 내부에 있는 BufferedReader �
 
 # Scanner와 BufferedReader의 차이점
 
-TODO
+**1.Scanner은 BufferedReader보다 타입에 구애받지 않는다.**
+
+- Scanner는 위에 특징과 같이 여러가지 데이터 타입을 받을 수 있지만, BufferedReader같은 경우는 String 값 밖에 받지 못합니다.
+  따라서 wrapper클래스의 도움을 받아 원하는 데이터로 변환을 해줘야 합니다.
+
+**2. BufferedReader가 Scaner 보다 안전하다.**
+
+- BufferedReader의 경우 동기화를 사용하지만 Scanner는 사용하지 않습니다.
+- BufferedReader 같은 경우는 여러 쓰레드에서 안전하게 수행할 수 있습니다.
+- Scanner는 안전하지 않으므로 외부에서 동기화를 해야합니다.
+
+**2. BufferedReader가 Scanner보다 실행 속도가 빠르다.**
+
+다음 그림은 10000000개의 정수를 입력받고 입력받은 정수의 합을 출력하는 코드에 대한 수행 시간 차이를 표입니다.
+![speed](../img/speed.png)
+
+**3. BufferedReader는 직접적으로 예외처리를 해줘야한다.**
+
+- BufferedReader는 I/O exception을 자체적으로 처리하지 못해서 throw 혹은 try ~ catch를 이용해야 한다.
+- Scanner 같은 경우에는 I/O exception을 자체적으로 처리합니다.
+
+**4. BufferedReader가 더 큰 Buffer Size를 가지고 있습니다.**
+
+- Scanner(1024 chars)를 가지고 있으며, BufferedReader(8192 chars)가 더 큰 Buffer Size를 가지고 있습니다.
+
+## 요약
+
+|             | **BufferedReadr** |   **Scanner**    |
+| :---------: | :---------------: | :--------------: |
+| Buffer Size |       8192        |       1024       |
+| 동기화 여부 |         O         |        X         |
+| 문자열 파싱 | 단순히 읽어 들임  | 문자열 파싱 가능 |
+|  Exception  | IOException 던짐  | IOException 숨김 |
