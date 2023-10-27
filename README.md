@@ -36,3 +36,4 @@
 
 - [public 접근 제한자를 가졌는데 import를 못했던 이유](https://github.com/junxtar/TIL/blob/main/Problem/modifier.md)
 - [gitingnore 파일이 적용되지 않았던 이유](https://github.com/junxtar/TIL/blob/main/Problem/gitignore.md)
+- [클래스들의 순환 참조 문제](https://github.com/junxtar/TIL/blob/main/Problem/structural.md)
