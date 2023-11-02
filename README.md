@@ -30,6 +30,7 @@
 - [Scanner와 BufferedReader의 차이를 알아보자!](https://github.com/junxtar/TIL/blob/main/Java/input.md)
 - [접근 제어자에 대해서 그림으로 알아보자!](https://github.com/junxtar/TIL/blob/main/Java/accessModifier.md)
 - [Record에 대해서 알아보자!](https://github.com/junxtar/TIL/blob/main/Java/record.md)
+- [Queue에 offer() / add() 둘의 차이점을 알아보자!](https://github.com/junxtar/TIL/blob/main/Java/queue.md)
     <!-- Todo: main 메서드의 매개변수로 문자열 배열이 들어가는 이유를 알아보자! -->
 
 ### 프로젝트 진행사항간 발생한 문제점
