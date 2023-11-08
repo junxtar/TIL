@@ -37,13 +37,15 @@ public class Pizza implements Food {
 
 위 코드에서 구현체 클래스에 @Component 어노테이션을 설정함으로써 food타입의 Bean이 두개가 등록되었다.
 
-![Alt text](https://file%252B.vscode-resource.vscode-cdn.net/var/folders/nf/6lpq4f2s3ls4kqw4dnszq_5r0000gn/T/TemporaryItems/NSIRD_screencaptureui_yLJyNg/%25E1%2584%2589%25E1%2585%25B3%25E1%2584%258F%25E1%2585%25B3%25E1%2584%2585%25E1%2585%25B5%25E1%2586%25AB%25E1%2584%2589%25E1%2585%25A3%25E1%2586%25BA%25202023-11-08%252011.19.53.png?version%253D1699409999267)
+<img width="481" alt="스크린샷 2023-11-08 11 49 53" src="https://github.com/junxtar/TIL/assets/75934088/1ef8a01d-5da8-412a-8944-91415a54bef0">
+
+
 
 **아래 그림**과 같이 테스트 환경에서 사용하려고 하면 Idea에서 이렇게 말해주고 있다.
 
 > "너 지금 food Bean 2개 이상 있어 무엇을 사용할지 명시해줘"
 
-![Alt text](https://file%252B.vscode-resource.vscode-cdn.net/var/folders/nf/6lpq4f2s3ls4kqw4dnszq_5r0000gn/T/TemporaryItems/NSIRD_screencaptureui_1B6A0I/%25E1%2584%2589%25E1%2585%25B3%25E1%2584%258F%25E1%2585%25B3%25E1%2584%2585%25E1%2585%25B5%25E1%2586%25AB%25E1%2584%2589%25E1%2585%25A3%25E1%2586%25BA%25202023-11-08%252011.22.14.png?version%253D1699410150706)
+<img width="570" alt="스크린샷 2023-11-08 11 50 24" src="https://github.com/junxtar/TIL/assets/75934088/d158f767-0f7e-4b5e-bc4d-7a49379e18f2">
 
 ## 총 3가지의 방법이 존재한다.
 
