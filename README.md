@@ -33,6 +33,10 @@
 - [Queue에 offer() / add() 둘의 차이점을 알아보자!](https://github.com/junxtar/TIL/blob/main/Java/queue.md)
     <!-- Todo: main 메서드의 매개변수로 문자열 배열이 들어가는 이유를 알아보자! -->
 
+### Spring
+
+- [같은 타입의 Bean이 여러개일 때 우선순위를 처리하는 방법](https://github.com/junxtar/TIL/blob/main/Spring/beans.md)
+
 ### 프로젝트 진행사항간 발생한 문제점
 
 - [public 접근 제한자를 가졌는데 import를 못했던 이유](https://github.com/junxtar/TIL/blob/main/Problem/modifier.md)
