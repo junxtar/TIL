@@ -43,3 +43,4 @@
 - [gitingnore 파일이 적용되지 않았던 이유](https://github.com/junxtar/TIL/blob/main/Problem/gitignore.md)
 - [클래스들의 순환 참조 문제](https://github.com/junxtar/TIL/blob/main/Problem/structural.md)
 - [Jasypt 라이브러리 프로젝트 적용기](https://github.com/junxtar/TIL/blob/main/Problem/jasypt.md)
+- [Jasypt 라이브러리 사용할 때 발생할 수 있는 실수 2가지](https://github.com/junxtar/TIL/blob/main/Problem/jasypt-mistake.md)
