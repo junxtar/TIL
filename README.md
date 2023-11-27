@@ -36,6 +36,7 @@
 ### Spring
 
 - [같은 타입의 Bean이 여러개일 때 우선순위를 처리하는 방법](https://github.com/junxtar/TIL/blob/main/Spring/beans.md)
+- [RefreshToken 그게 뭔데?](https://github.com/junxtar/TIL/blob/main/Spring/refresh-token.md)
 
 ### 프로젝트 진행사항간 발생한 문제점
 
