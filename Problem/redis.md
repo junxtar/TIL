@@ -165,7 +165,7 @@ redis cli에서는 공백이 포함된 문자열을 조회하려면 "" 을 추�
 
 Bearer은 토큰 타입인데 해당 토큰 타입을 redis에 저장할때 필수라고는 생각하지 않기 때문이다.
 
-refreshToken을 redis에 저장하기 전에 토큰 타입 Bearer 을 제외하고 저장을 해 공배 문제를 해결하였다.
+refreshToken을 redis에 저장하기 전에 토큰 타입 Bearer 을 제외하고 저장을 해 공백 문제를 해결하였다.
 
 ```java
  @Override
@@ -185,3 +185,12 @@ refreshToken을 redis에 저장하기 전에 토큰 타입 Bearer 을 제외하�
         redisUtil.set(refreshToken, user.getId(), 60 * 24 * 14);
     }
 ```
+
+해당 아래와 같이 제대로 저장된 것을 확인할 수 있었다.
+
+<img width="564" alt="스크린샷 2023-12-04 13 19 32" src="https://github.com/junxtar/TIL/assets/75934088/5b44836e-792b-4340-ad6a-47dc239de44c">
+
+## ++ 추가로 
+해당 key값을 RefreshToken이 아닌 유저의 Id로 저장을 하는 방식을 택하면 어땠을까? 라는 생각을 하였다.
+
+그렇게 생각한 이유는 매우 긴 key값은 메모리 측면뿐만 아니라 데이터 집합에서 키를 조회하는 데 비용이 많이 들 수 있기 때문에 좋은 생각이 아니라고 생각했기 때문이다.
