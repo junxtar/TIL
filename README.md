@@ -46,3 +46,4 @@
 - [Jasypt 라이브러리 프로젝트 적용기](https://github.com/junxtar/TIL/blob/main/Problem/jasypt.md)
 - [Jasypt 라이브러리 사용할 때 발생할 수 있는 실수 2가지](https://github.com/junxtar/TIL/blob/main/Problem/jasypt-mistake.md)
 - [Redis를 환경을 이용한 RefreshToken 적용기](https://github.com/junxtar/TIL/blob/main/Problem/redis.md)
+- [Postman 로그인 테스트 할 때 마다 자동으로 token을 넣어주는 방법](https://github.com/junxtar/TIL/blob/main/Problem/postman.md)
