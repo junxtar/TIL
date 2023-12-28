@@ -140,7 +140,7 @@ public interface UserRepository {
 
 또다른 방법은 필드명 변경이다.
 
-기존에 `oauthId`의 값은 `oauthId`로 변경을 하는 것이다.
+기존에 `oAuthId`의 값은 `oauthId`로 변경을 하는 것이다.
 
 이 방법은 일반적으로 변수명을 카멜케이스로 쓰기 때문에 상당한 혼동을 줄 수 있다고 생각한다.
 
