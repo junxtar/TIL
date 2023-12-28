@@ -96,7 +96,7 @@ private String OAuthId -> oauth_id로 생성
 private String oAuthId -> o_auth_id로 생성
 ```
 
-보통 필드명은 CamelCase를 사용하니 `nickName`과 같이 사용하게 될 것이다.
+보통 필드명은 CamelCase를 사용하니 `oAuthId`와 같이 사용하게 될 것이다.
 
 그렇다면 내가 필드로 설정한 String oAuthId는 어떤 값으로 변할까?
 
