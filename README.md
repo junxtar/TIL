@@ -49,3 +49,4 @@
 - [Postman 로그인 테스트 할 때 마다 자동으로 token을 넣어주는 방법](https://github.com/junxtar/TIL/blob/main/Problem/postman.md)
 - [Jpa Query Method -> java.lang.IllegalArgumentException](https://github.com/junxtar/TIL/blob/main/Problem/jpa-query.md)
 - [Github Action을 이용한 CI 적용기](https://github.com/junxtar/TIL/blob/main/Problem/ci.md)
+- [JPA Query 최적화](https://github.com/junxtar/TIL/blob/main/Problem/query-optimization.md)
