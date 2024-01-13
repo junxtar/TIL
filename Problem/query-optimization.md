@@ -150,7 +150,7 @@ implementation("com.querydsl:querydsl-apt") // querydsl
 
 <details>
 
-<summary>Spring Boot 2.xx QueryDSL gradle 설정</summary>
+<summary>Spring Boot 3.xx QueryDSL gradle 설정</summary>
 
 ```java
 dependencies {
