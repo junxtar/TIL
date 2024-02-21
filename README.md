@@ -51,3 +51,4 @@
 - [Github Action을 이용한 CI 적용기](https://github.com/junxtar/TIL/blob/main/Problem/ci.md)
 - [JPA Query 최적화](https://github.com/junxtar/TIL/blob/main/Problem/query-optimization.md)
 - [요청 DTO에 필드값이 하나일 때 역직렬화 방식](https://github.com/junxtar/TIL/blob/main/Problem/dto-deserialization.md)
+- [Mail 전송 비동기로 처리하기](https://github.com/junxtar/TIL/blob/main/Problem/mail-async.md)
