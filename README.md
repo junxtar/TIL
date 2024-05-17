@@ -30,6 +30,7 @@
 - [Scanner와 BufferedReader의 차이를 알아보자!](https://github.com/junxtar/TIL/blob/main/Java/input.md)
 - [접근 제어자에 대해서 그림으로 알아보자!](https://github.com/junxtar/TIL/blob/main/Java/accessModifier.md)
 - [Record에 대해서 알아보자!](https://github.com/junxtar/TIL/blob/main/Java/record.md)
+- [Stream List 반환 방법](https://github.com/junxtar/TIL/blob/main/Java/return-list.md)
 - [Queue에 offer() / add() 둘의 차이점을 알아보자!](https://github.com/junxtar/TIL/blob/main/Java/queue.md)
 - JAVA Version 특징
   - [JDK1.5](https://github.com/junxtar/TIL/blob/main/Java/jdk1.5.md)
