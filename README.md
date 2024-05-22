@@ -33,6 +33,7 @@
 - [Stream List 반환 방법](https://github.com/junxtar/TIL/blob/main/Java/return-list.md)
 - [Queue에 offer() / add() 둘의 차이점을 알아보자!](https://github.com/junxtar/TIL/blob/main/Java/queue.md)
 - [String을 Java에서 불변으로 설정한 이유](https://github.com/junxtar/TIL/blob/main/Java/immutable-string.md)
+- [seliralVersionUID를 명시하는 이유](https://github.com/junxtar/TIL/blob/main/Java/serial.md)
 - JAVA Version 특징
   - [JDK1.5](https://github.com/junxtar/TIL/blob/main/Java/jdk1.5.md)
   <!-- Todo: main 메서드의 매개변수로 문자열 배열이 들어가는 이유를 알아보자! -->
